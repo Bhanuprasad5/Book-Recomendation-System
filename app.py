@@ -4,10 +4,10 @@ import numpy as np
 import streamlit as st
 
 st.header('Book Recommender System Using Machine Learning')
-model = pickle.load(open(r'pkl files\model.pkl','rb'))
-book_names = pickle.load(open(r'pkl files\books_name.pkl','rb'))
-final_rating = pickle.load(open(r'pkl files\final_rating.pkl','rb'))
-book_pivot = pickle.load(open(r'pkl files\book_pivote.pkl','rb'))
+model = pickle.load(open(r'pkl files/model.pkl','rb'))
+book_names = pickle.load(open(r'pkl files/books_name.pkl','rb'))
+final_rating = pickle.load(open(r'pkl files/final_rating.pkl','rb'))
+book_pivot = pickle.load(open(r'pkl files/book_pivote.pkl','rb'))
 
 
 def fetch_poster(suggestion):
