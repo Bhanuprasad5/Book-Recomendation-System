@@ -166,10 +166,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load models and data
-model = pickle.load(open(r'pkl files/model.pkl','rb'))
-book_names = pickle.load(open(r'pkl files/books_name.pkl','rb'))
-final_rating = pickle.load(open(r'pkl files/final_rating.pkl','rb'))
-book_pivot = pickle.load(open(r'pkl files/book_pivote.pkl','rb'))
+model = pickle.load(open('pkl files/model.pkl','rb'))
+book_names = pickle.load(open('pkl files/books_name.pkl','rb'))
+final_rating = pickle.load(open('pkl files/final_rating.pkl','rb'))
+book_pivot = pickle.load(open('pkl files/book_pivote.pkl','rb'))
 
 def fetch_poster(suggestion):
     book_name = []
